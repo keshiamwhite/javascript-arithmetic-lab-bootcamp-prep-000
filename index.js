@@ -1,20 +1,43 @@
 function add(a,b) {
   var add = a + b;
-  return 972;
+  return add;
 }
 
 function subtract(a,b) {
   var subtract = a - b;
-  return -215;
+  return subtract;
 }
 
 function multiply(a,b) {
  var multiply = a * b; 
- return 668265;
+ return multiply;
 }
 
 function divide(a,b) {
   var divide = a/b;
-  return 1.771799628942486;
+  return divide;
+}
+
+var n = 0;
+
+
+function inc(n) {
+  n++;
+  return n;
+}
+
+function dec(n) {
+ n--;
+ return n;
+}
+
+function makeInt(n) {
+  parseInt(n);
+  return n;
+}
+
+function makeInt(n) {
+  parseInt('0', 10);
+  return n;
 }
 
